@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import Info from './pages/Info';
 import NotFoundPage from './pages/404';
+import Test from './pages/test';
 
 const routers = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const routers = createBrowserRouter([
   {
     path : '/info',
     element : <Info />
+  },
+  {
+    path : '/test',
+    element : <Test />,
   },
   {
     path : '*',
