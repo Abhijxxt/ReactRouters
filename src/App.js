@@ -33,6 +33,7 @@ const routers = createBrowserRouter([
 function App() {
   return (
     <div className="App">
+      <h1 className="text-xl text-center p-3 bg-slate-500 text-yellow-200">This is the common header for all the pages.</h1>
       <RouterProvider router={routers} />
     </div>
   );
